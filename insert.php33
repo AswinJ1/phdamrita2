@@ -1,0 +1,27 @@
+<?php
+$username="uzad8ugedcskz";
+$database="dbemraa6smt5t6";
+$password="43{bE1ALj412";
+
+$connection = mysqli_connect("localhost", $username, $password) or die ("could not connect to mysql"); // Establishing Connection with Server
+$db = mysqli_select_db($connection , $database) or die ("no database"); // Selecting Database from Server
+if(isset($_POST['fname'] && $_POST['email'] && $_POST['contact'] && $_POST['enquiry'])){ // Fetching variables of the form which travels in URL
+$fname = $_POST['fname'];
+$email = $_POST['email'];
+$contact = $_POST['contact'];
+$enquiry = $_POST['enquiry'];
+
+if($fname !=''||$email !=''){
+//Insert Query of SQL
+$query = mysqli_query($connection , "INSERT INTO leads(fname, email, contact, enquiry) values ('$fname', '$email', '$contact', '$enquiry')");
+if($query) {
+$msg = "Thanks for your Interest in Applying for Mtech at Amrita Vishwa Vidyapeetham.";
+}
+else{
+$msg = "Some error Occured while Submitting, Please try again!";
+}
+}
+}
+echo $msg;
+mysqli_close($connection); // Closing Connection with Server
+?>
