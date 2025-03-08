@@ -406,12 +406,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #mobile-nav-toggle {
   position: fixed; /* Change from fixed to absolute */
-  top: 15px;
+  top: 30px;
   right: 15px;
   transform: translateY(-50%); /* Ensure proper centering */
   z-index: 1000;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
+  color: white;
   background: transparent;
   border: none;
   display: none;
