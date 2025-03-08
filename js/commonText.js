@@ -1,14 +1,16 @@
 function mainpageNotification(){
 	//var text = "Apply on or before - 5<sup>th</sup> January 2025";
-	var text = "<strong>Programs Still Open</strong><br>Ph. D. in Agronomy, Coimbatore<br>Ph. D. in Artificial Intelligence and Data Science, Faridabad <br>Ph. D. in Social & Behavioural Science, Faridabad<br>Last Date to Apply : January 05, 2025";
-
+            // var text = "<strong>Programs Still Open</strong><br>Ph. D. in Agronomy, Coimbatore<br>Ph. D. in Artificial Intelligence and Data Science, Faridabad <br>Ph. D. in Social & Behavioural Science, Faridabad<br>Last Date to Apply : January 05, 2025";
+    var text = "<strong>Admission opening soon</strong>";
     //document.getElementById("notificationtitle").innerHTML = text;
     document.write(text)
 }
 
 function subpageNotificaton(){
     //var textsub = "Apply on or before - 5<sup>th</sup> January 2025";
-	var textsub = "<strong>Programs Still Open</strong><br>Ph. D. in Agronomy, Coimbatore<br>Ph. D. in Artificial Intelligence and Data Science, Faridabad <br>Ph. D. in Social & Behavioural Science, Faridabad<br>Last Date to Apply : January 05, 2025";
+    var textsub ="<strong>Admission opening soon</strong>";
+
+	// var textsub = "<strong>Programs Still Open</strong><br>Ph. D. in Agronomy, Coimbatore<br>Ph. D. in Artificial Intelligence and Data Science, Faridabad <br>Ph. D. in Social & Behavioural Science, Faridabad<br>Last Date to Apply : January 05, 2025";
     document.write(textsub)
 }
 
