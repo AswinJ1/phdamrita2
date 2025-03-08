@@ -13,8 +13,9 @@ function subpageNotificaton(){
 }
 
 function thematicareaNotificaton(){
+    var textsub ="<strong>Admission opening soon</strong>";
 	//var textsub = "Apply on or before - 5<sup>th</sup> January 2025";
-	var textsub = "<strong>Programs Still Open</strong><br>Ph. D. in Agronomy, Coimbatore<br>Ph. D. in Artificial Intelligence and Data Science, Faridabad <br>Ph. D. in Social & Behavioural Science, Faridabad<br>Last Date to Apply : January 05, 2025";
+	// var textsub = "<strong>Programs Still Open</strong><br>Ph. D. in Agronomy, Coimbatore<br>Ph. D. in Artificial Intelligence and Data Science, Faridabad <br>Ph. D. in Social & Behavioural Science, Faridabad<br>Last Date to Apply : January 05, 2025";
     //var textsub = "Admissions open for <a href='PhD/phd_doc/PhD_Admissions_open_July_10.pdf' target='_blank' style='color:yellow;'>selected PhD Programs</a> till 5<sup>th</sup> January 2025";
     document.write(textsub)
 }
