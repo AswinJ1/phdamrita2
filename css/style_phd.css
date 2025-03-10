@@ -1499,6 +1499,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  padding: 0 50px; 
 }
 
 .telegram-btn {
@@ -1523,6 +1524,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .telegram-btn:hover {
   background: #005f99;
+}
+.contact-title {
+  padding: 0 15px;  /* Adds padding to the left and right */
+  margin: 0;        /* Removes default margin */
+  font-size: 28px;  /* Adjust font size as needed */
+  font-weight: 600; /* Optional: Adjust font weight for better visibility */
 }
 
 /* Responsive adjustments */
