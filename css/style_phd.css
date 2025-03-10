@@ -1301,7 +1301,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Expand FAQ */
 .faq-item input[type="checkbox"]:checked + .faq-label + .faq-content {
-  max-height: 200px;
+  max-height: 10000px;
   padding: 15px;
 }
 
