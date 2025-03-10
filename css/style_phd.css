@@ -11,8 +11,10 @@ body {
   background: #fff;
   color: #666666;
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden; 
+  overflow-y: hidden;
 }
-
+/* added overflow-x and overflow-y hidden to ensure responsiveness */
 a {
   color: #b8114f;
 }
@@ -310,7 +312,10 @@ h1, h2, h3, h4, h5, h6 {
     background: rgba(0, 0, 0, 0.9); /* Dark background for mobile menu */
     top: 50px; /* Adjust position to stay below header */
     left: 0;
+    right: 0;
     text-align: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 
   body.mobile-nav-active #nav-menu-container {
@@ -423,12 +428,16 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 769px) {
   #mobile-nav-toggle {
     display: none !important;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 }
 
 @media (max-width: 768px) {
   #mobile-nav-toggle {
     display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 }
 
