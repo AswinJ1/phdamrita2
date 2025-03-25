@@ -1529,3 +1529,15 @@ h1, h2, h3, h4, h5, h6 {
       order: 1;
   }
 }
+  /* Accordion button Styling */
+  .accordion-button {
+    background-color: #b8114f !important;
+    color: white !important;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.accordion-button:hover {
+    background-color: #b8114f !important;
+}
