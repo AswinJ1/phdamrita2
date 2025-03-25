@@ -464,52 +464,91 @@
 					</div>
 				</div> -->
 
-				<div class="row" class="accordion-list">
-					<ul>
-						<div class="col-lg-12" id="myDIV7">
-							<ul id="portfolio-flters">
-								<li data-filter=".filter-topic" class="filter-active"><b> GROUP BY THEMATIC AREA</b>
-								</li>
-								<li
-									data-filter=".filter-eng, .filter-bio, .filter-man, .filter-amb, .filter-sci, .filter-int, .filter-med, .filter-amc, .filter-hss, .filter-bus">
-									<b>GROUP BY RESEARCH TOPIC</b></li>
-								<li data-filter=".filter-eng"><b>Engineering</b></li>
-								<li data-filter=".filter-sci"><b>Sciences</b></li>
-								<li data-filter=".filter-hss"><b>Medical Sciences</b></li>
-								<li data-filter=".filter-amb"><b>Amrita Mind Brain Center</b></li>
-								<li data-filter=".filter-bio"><b>Biotechnology</b></li>
-								<li data-filter=".filter-bus"><b>Business</b></li>
+				<div class="container mt-4">
+					<div class="row row-cols-1 row-cols-md-3 g-4">
+				
+						<!-- GROUP BY THEMATIC AREA -->
+						<div class="col">
+							<div class="accordion" id="thematicAccordion">
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+										<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#thematicCollapse">
+											<b>GROUP BY THEMATIC AREA</b>
+										</button>
+									</h2>
+									<div id="thematicCollapse" class="accordion-collapse collapse" data-bs-parent="#thematicAccordion">
+										<div class="accordion-body">
+											<ul id="portfolio-flters">
+												<li data-filter=".filter-topic" class="filter-active"><b>GROUP BY THEMATIC AREA</b></li>
+												<li data-filter=".filter-eng"><b>Engineering</b></li>
+												<li data-filter=".filter-sci"><b>Sciences</b></li>
+												<li data-filter=".filter-hss"><b>Medical Sciences</b></li>
+												<li data-filter=".filter-amb"><b>Amrita Mind Brain Center</b></li>
+												<li data-filter=".filter-bio"><b>Biotechnology</b></li>
+												<li data-filter=".filter-bus"><b>Business</b></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+				
+						<!-- GROUP BY RESEARCH TOPIC -->
+						<div class="col">
+							<div class="accordion" id="researchAccordion">
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+										<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#researchCollapse">
+											<b>GROUP BY RESEARCH TOPIC</b>
+										</button>
+									</h2>
+									<div id="researchCollapse" class="accordion-collapse collapse" data-bs-parent="#researchAccordion">
 
-							</ul>
+										<div class="accordion-body">
+											<ul id="portfolio-flters">
+												<li data-filter=".filter-eng, .filter-bio, .filter-man, .filter-amb, .filter-sci, .filter-int, .filter-med, .filter-amc, .filter-hss, .filter-bus">
+													<b>ALL RESEARCH TOPICS</b>
+												</li>
+												<li data-filter=".filter-eng"><b>Engineering</b></li>
+												<li data-filter=".filter-sci"><b>Sciences</b></li>
+												<li data-filter=".filter-hss"><b>Medical Sciences</b></li>
+												<li data-filter=".filter-amb"><b>Amrita Mind Brain Center</b></li>
+												<li data-filter=".filter-bio"><b>Biotechnology</b></li>
+												<li data-filter=".filter-bus"><b>Business</b></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
-					</ul>
-					<!-- <ul>
-						<div class="col-lg-12" id="myDIV5" style="display: none">
-							<ul id="portfolio-flters">
-								 <li data-filter=".filter-eng, .filter-bio, .filter-man, .filter-amb, .filter-sci, .filter-int, .filter-med, .filter-amc, .filter-hss, .filter-bus"
-								 class="filter-active"><b>ALL</b></li>
-                				<li data-filter=".filter-eng"><b>Engineering</b></li>								
-								<li data-filter=".filter-sci"><b>Sciences</b></li> 
-								<li data-filter=".filter-hss"><b>Medical and Health Sciences</b></li> 
-								<li data-filter=".filter-amb"><b>Amrita Mind Brain Center</b></li>
-								<li data-filter=".filter-bio"><b>Biotechnology</b></li>
-								<li data-filter=".filter-bus"><b>Business</b></li>								
-							</ul>
+				
+						<!-- GROUP BY CAMPUS -->
+						<div class="col">
+							<div class="accordion" id="campusAccordion">
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+										<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#campusCollapse">
+											<b>GROUP BY CAMPUS</b>
+										</button>
+									</h2>
+									<div id="campusCollapse" class="accordion-collapse collapse" data-bs-parent="#campusAccordion">
+										<div class="accordion-body">
+											<ul id="portfolio-flters">
+												<li data-filter=".filter-amr"><b>Amritapuri</b></li>
+												<li data-filter=".filter-coi"><b>Coimbatore</b></li>
+												<li data-filter=".filter-koc"><b>Kochi</b></li>
+												<li data-filter=".filter-bgl"><b> Bengaluru</b></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
-					</ul> -->
-					<!-- <ul>
-						<div class="col-lg-12" id="myDIV6">
-							<ul id="portfolio-flters">
-								
-								
-								&nbsp;&nbsp;<li data-filter=".filter-topic"><b>THEMATIC AREA</b></li>
-								
-							</ul>
-						</div>
-					</ul> -->
-
+				
+					</div>
 				</div>
-
+				
+				<br><br>
 
 
 				<div class="row" id="portfolio-wrapper">
